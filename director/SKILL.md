@@ -111,6 +111,7 @@ description: >
 | 这条规则哪来的 / 能不能信 / 怎么记这次的实验结果 | `references/evidence-log.md` | 规则入库卡 + 生成记录 + 对照实验表 |
 | 参数怎么写 / 时间戳格式 / 台词怎么标 / 素材上限 | `references/seedance-official.md` | 官方原文条款 + 本系统踩过的坑 |
 | 准备交付 / 帮我检查一遍 / 这条能不能发 | `references/preflight.md` | 24 项可数检查 + 5 条一票否决 |
+| 只要一条简单的提示词 / 单主体单动作 | `references/prompt-spec.md` | 六要素轻量档（**不能进叙事序列**） |
 | 上一条为什么崩 / 有没有真实案例 | `references/postmortem.md` | 实拍复盘（带秒数、帧号、根因） |
 
 **一次只加载需要的那个 reference。** 不要一次把五个都读进来——那不是系统，是噪音。
@@ -380,6 +381,7 @@ GitHub 搜索 → 看仓库树（不是只看 README）→ 读 references/ 里�
 | `references/seedance-official.md` | 官方文档原文摘录：8 块模板、整数秒时间戳、素材上限、台词与字幕规则 |
 | `references/preflight.md` | **出稿前 24 项检查 + 5 条一票否决**：每项都能数出来，交付要写凭证 |
 | `references/scene-study.md` | **读剧本**：Scene Action → Objective 对立 → 划 Unit（**Unit = 镜头**）+ 场景卡模板 |
+| `references/prompt-spec.md` | **六要素轻量档**：单主体单动作够用；缺的正是让镜头接得住的那几块，**不进叙事序列** |
 | `references/postmortem.md` | 实拍复盘库：唯一带真实成片证据的部分，按秒记录崩在哪 |
 | `templates/prompt-8blocks.md` | 8 块填空模板：固定结构，减少自由发挥 |
 | `docs/` | **归档区，工作时不读**：`intake-map.md`（12 包取舍）、`original/`（四份原始文档 + Hell Grind Brief）、`style-prefix-en.md`（英文前缀） |
